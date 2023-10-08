@@ -1,0 +1,318 @@
+:root {
+  --Cyan: hsl(180, 66%, 49%);
+  --Cyanhover: hsl(180, 58%, 61%);
+  --DarkViolet: hsl(257, 27%, 26%);
+  --Red: hsl(0, 87%, 67%);
+  --Gray: hsl(0, 0%, 75%);
+  --Grayish-Violet: hsl(257, 7%, 63%);
+  --Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Very-Dark-Violet: hsl(260, 8%, 14%);
+  --azulfondo: #EFF1F7;
+  --poppins500:'Poppins', sans-serif;
+  --Roboto300:'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: var(--poppins500);
+
+}
+
+
+
+p{
+  font-size:1.1rem ;
+  font-family: var(--Roboto300);
+
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  width: 95vw;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.navlist{
+  display: flex;
+  align-items: center;
+}
+
+
+.navlist ul{
+  display: flex;
+  gap: 30px;
+}
+
+.logreg{
+  display: flex;
+  align-items: center;
+}
+
+.logreg ul{
+  display: flex;
+  gap: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  background-color: var(--Cyan);
+  color: #ffffff;
+  font-family: "Poppins";
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color:var(--Cyanhover) ;
+}
+
+.button2{
+  color: inherit;
+  background-color: inherit;
+}
+.button2:hover{
+  background-color: inherit;
+}
+/* -----------HEADER--------- */
+
+
+
+main{
+  overflow: hidden;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+header div{
+  padding: 40px;
+  width:45%;
+}
+
+header h1{
+  font-size: 60px;
+  margin: 0px;
+}
+
+header img{
+  width: 45%;
+  position: relative;
+  right: -25px;
+}
+
+
+/* -----------------FORM---------- */
+
+.container-form{
+  position: relative;
+  width: 80%;
+  top: -60px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.form{
+  background-image: url(images/bg-shorten-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 120px;
+  border-radius: 8px;
+  background-color: var(--DarkViolet);
+}
+
+
+form{
+  width: 90%;
+  display: flex;
+  gap: 10px;
+}
+
+form input{
+  width: 80%;
+  border: 0px;
+  text-indent: 20px;
+  border-radius: 5px;
+}
+
+
+form button{
+  width: 20%;
+  border-radius: 5px;
+}
+
+.Advanced-Statistics{
+  background-color: var(--azulfondo);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+}
+
+
+.Advanced-Statistics p{
+  margin: 0px 0px 30px 0px;
+
+  text-align: center;
+  width: 500px;
+}
+/* -----------------------cards */
+.container-cards{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 0px 150px 0px;
+  
+  
+
+}
+
+.card{
+  position: relative;
+  width: 20%;
+  text-align: center;
+  text-wrap: balance;
+  z-index: 2;
+
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+
+  text-align: left;
+}
+
+.card p{
+  
+  margin: initial;
+  text-align: initial;
+  width: initial;
+  
+}
+
+.cyan{
+  height: 20px;
+  width: 500px;
+  background-color: var(--Cyan);
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+}
+
+
+.container-icon{
+  background-color: var(--DarkViolet);
+  display: flex;
+  position: absolute;
+  top: -30px;
+  width:60px;
+  height: 60px;
+  border-radius: 50% 50%;
+
+  
+}
+
+
+.container-icon img{
+  
+  margin: 10px;
+}
+
+
+.card2{
+  top: 30px;
+}
+
+.card3{
+  top: 60px;
+}
+
+
+/* ---------------Boost-your-links-today */
+
+
+.Boost-your-links-today{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--DarkViolet);
+  background-image: url(images/bg-boost-desktop.svg);
+  padding: 40px;
+  margin: 0px;
+  
+}
+
+.Boost-your-links-today h2{
+  color: #ffffff;
+}
+
+
+/* ----------------Footer */
+
+h4{
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color: var(--Very-Dark-Violet);
+  height: 250px;
+  color: #ffffff;
+  margin: 0px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr 1fr 1.8fr;
+}
+
+.container-logo{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+
+
+footer ul li a{
+  text-decoration: none;
+  color: var(--Gray);
+}
+
+.container-redes{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
