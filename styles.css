@@ -36,7 +36,12 @@ nav{
   height: 90px;
   width: 95vw;
 }
-
+.toggle-menu{
+  display: none;
+}
+.cont{
+  display: flex;
+}
 nav ul{
   list-style: none;
 }
@@ -281,7 +286,7 @@ h4{
 
 footer{
   background-color: var(--Very-Dark-Violet);
-  height: 250px;
+  height: fit-content;
   color: #ffffff;
   margin: 0px;
   padding-top: 50px;
@@ -315,4 +320,157 @@ footer ul li a{
   display: flex;
   justify-content: center;
   gap: 25px;
+}
+
+
+@media (max-width: 700px) {
+  body{
+    width: 100vw;
+  }
+  nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  nav img{
+    width: 35%;
+    height: 40px;
+  }
+  .cont{
+    color: #ffffff;
+    width: 95%;
+    height: 350px;
+    background-color: var(--DarkViolet);
+    position: absolute;
+    z-index: 100;
+    top: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+  .none{
+    display: none;
+  }
+  
+  .logreg{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .logreg ul li{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .navlist ul{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 0px;
+  }
+  .logreg ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    width: 80%;
+  }
+  .logreg ul li{
+    display: flex;
+    justify-content: stretch;
+  }
+
+  .toggle-menu{
+    display: inline;
+    width: 80px;
+  }
+
+  .toggle-menu img{
+    object-fit: cover;
+  }
+
+  header{
+    flex-direction: column-reverse;
+    
+  }
+  header div{
+    text-align: center;
+    width: 80%;
+  }
+  header h1{
+    font-size: 40px;
+  }
+  header button{
+    width: 200px;
+  }
+  header img{
+    width: 100%;
+  }
+  button{
+    font-size: 19px;
+  }
+  form{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  form input{
+    width: 80%;
+    padding: 10px;
+  }
+  form button{
+    width: 80%;
+    
+  }
+  .container-cards{
+    flex-direction: column;
+  }
+  .Advanced-Statistics>p{
+    text-align: center;
+    width: 90%;
+
+  }
+  .container-cards{
+    align-items: center;
+  }
+
+  .card{
+    width: 80%;
+  }
+  .cyan{
+    rotate: 90deg;
+    height: 12px;
+  }
+  .container-icon{
+    left: 41%;
+  }
+  .Boost-your-links-today{
+    text-align: center;
+    font-size: 16px;
+  }
+  footer{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 0.3fr;
+    text-align: center;
+    gap: 10px;
+    
+  }
+  .rej{
+    position: relative;
+    right: 6%;
+  }
+  .card{
+    text-align: center;
+  }
+  .card p{
+    text-align: center;
+  }
+
 }
