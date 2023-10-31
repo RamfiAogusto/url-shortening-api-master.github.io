@@ -25,7 +25,7 @@ async function shortenUrl(e) {
     method: 'GET',
     headers: {
       
-      'X-RapidAPI-Key': '40e18ac248msh039a0f714c16017p110569jsn198bc93d196a',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'free-url-shortener.p.rapidapi.com'
     }
   };
