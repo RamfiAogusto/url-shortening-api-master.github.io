@@ -395,10 +395,12 @@ footer ul li a{
   .toggle-menu{
     display: inline;
     width: 80px;
+    
   }
 
   .toggle-menu img{
     object-fit: cover;
+    margin-left: 30px;
   }
 
   header{
