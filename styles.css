@@ -140,7 +140,9 @@ header img{
   width: 80%;
   top: -60px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -176,20 +178,62 @@ form button{
   border-radius: 5px;
 }
 
+
+.container-form .acortado-container{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 79%;
+  min-width: fit-content;
+  margin: 15px;
+  padding: 10px;
+  gap: 5px;
+}
+
+.container-form .acortado-container .urls-container{
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.urls-container>p{
+  width: fit-content;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: start;
+}
+
+.urls-container a{
+  text-decoration: none;
+  color: var(--Cyan);
+}
+
+.container-form .acortado-container .copy-acortado{
+  padding: 5px;
+}
+
+.container-form .acortado-container .copy-acortado img{
+  box-sizing: border-box;
+  width: 25px;
+}
+
 .Advanced-Statistics{
   background-color: var(--azulfondo);
   text-align: center;
   display: flex;
   flex-direction: column;
-  
   align-items: center;
-
 }
 
 
-.Advanced-Statistics p{
+p{
   margin: 0px 0px 30px 0px;
-
   text-align: center;
   width: 500px;
 }
